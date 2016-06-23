@@ -1,0 +1,6 @@
+include LICENSE
+include MANIFEST.in
+include *.rst
+graft bracon.py
+global-exclude __pycache__
+global-exclude *.py[co]
